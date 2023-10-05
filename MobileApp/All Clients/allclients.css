@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Source+Sans+3&family=Sulphur+Point&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Source+Sans+3&family=Stylish&family=Sulphur+Point&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    background-color: black;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+body{
+    padding :50px;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    background: #F4F8FB;
+    font-family: "Sulphur Point";
+}
+
+.header {
+    width: 100%;
+    padding: 50px;
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background : #fff;
+}
+
+.header h3 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #01133D;
+}
+
+.logo {
+    width: 215px;
+    height: 81px;
+}
+
+.container section {
+    display: flex;
+    flex-direction: column;
+    padding: 158px 50px 39px 50px;
+    width: 100%;
+}
+
+section .card {
+    padding: 40px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    width: 100%;
+}
+
+section .card .card-header {
+    display : flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+section .card .card-header .ellipse {
+    color : #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    background-color: #3476E4;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-family: "Stylish";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+section .card .card-header i {
+    color : #01133D;
+    margin-left: 34px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+section .card .card-content{
+    display: flex;
+}
+
+section .card .card-content .card-text p {
+    margin-top: 41px;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color : #01133D;
+}
+
+.btn {
+    border-radius: 5px;
+    margin-left: 167px;
+    margin-bottom: 13px;
+    width: 423px;
+    height: 124px;
+    flex: 1;
+    color: white;
+    align-self: flex-end;
+    justify-self:end;
+    text-align: center;
+    padding: 38px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    background: #01133D;
+}
+
+.copyright {
+    margin-top: 83px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #01133D38;
+}
+
+#lastbtn {
+    margin-top: 100px;
+    border-radius: 5px;
+    display: inline-block;
+    align-self: flex-end;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #01133D;
+    color: white;
+    padding: 45px 48px;
+}

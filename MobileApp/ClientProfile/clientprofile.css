@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Source+Sans+3&family=Sulphur+Point&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Source+Sans+3&family=Stylish&family=Sulphur+Point&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+.clear {
+    clear: both;
+}
+
+body{
+    background-color: black;
+    padding :50px;
+}
+
+.container{
+    padding-bottom: 39px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    background: #F4F8FB;
+    font-family: "Sulphur Point";
+}
+
+.header {
+    width: 100%;
+    padding: 50px;
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background : #fff;
+}
+
+.header h3 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #01133D;
+}
+
+.logo {
+    width: 215px;
+    height: 81px;
+}
+
+.first-card {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 7px;
+}
+
+.first-card .card-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-card .card-content {
+    margin-top: 63px;
+    display: flex;
+    gap:356px;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+}
+
+.first-card .card-content p i {
+    font-weight: 900;
+    margin-right: 39px;
+}
+
+.first-card .card-header p {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.first-card .card-header i {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 74px;    
+}
+
+
+.container section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 0px 50px;
+    width: 100%;
+}
+
+section .card {
+    padding: 40px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    width: 100%;
+}
+
+section .card:last-of-type{
+    margin-bottom: 0px;
+}
+
+section .card .card-header {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-bottom: 71px;
+}
+
+section .card .card-header .ellipse {
+    justify-content: center;
+    background-color: #07DA42;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 35px;
+}
+
+section .card .card-header .ep-3{
+    background-color: red;
+}
+
+section .card .card-header .ep-4{
+    background-color: red;
+}
+
+section .card .card-header i {
+    color : #01133D;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    
+    margin-left: auto;
+    
+}
+
+section .card {
+    display: flex;
+    flex-direction: column;
+}
+
+section .card .card-text p {
+    margin-top: 31px;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    
+    
+    color : #01133D;
+}
+
+section .card .card-text p:first-child {
+    margin-top: 0;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;  
+    
+    color : #01133D;
+}
+
+section .card .card-text .delivered {
+    color: #07DA42;
+    font-weight: 700;
+}
+
+section .card .card-text span {
+    color : #01133D;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px; 
+    
+}
+
+section .card .card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    border-radius: 5px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;  
+    text-align: center;
+    background: #01133D;
+    color: white;
+    padding: 45px 48px;
+}
+
+.copyright {
+    margin-top: 103px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    
+    color: #01133D38;
+}
